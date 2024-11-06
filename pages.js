@@ -5,7 +5,7 @@ const repoURL = "https://github.com/scw1998/scw1998.github.io";
 ghpages.publish(
   pathname,
   {
-    branch: "master",
+    branch: "main",
     repo: repoURL,
   },
   (err) => {
